@@ -1,0 +1,23 @@
+{
+  "name": "ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "vacker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "build": "tsc -b"
+  },
+  "keywords": [],
+  "author": "CharmedSatyr <z@charmed.tech>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@types/faker": "^4.1.5",
+    "faker": "^4.1.0",
+    "prettier": "^1.17.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.4.5"
+  }
+}
